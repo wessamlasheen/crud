@@ -90,7 +90,7 @@ function showData() {
   let table = "";
   for (let i = 0; i < prodArr.length; i++) {
     table += `<tr>
-    <td>${i}</td>
+    <td>${i+1}</td>
     <td>${prodArr[i].title}</td>
     <td>${prodArr[i].price}</td>
     <td>${prodArr[i].taxs}</td>
